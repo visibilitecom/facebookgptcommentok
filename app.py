@@ -31,7 +31,7 @@ def webhook():
 def home():
     return "Bot Facebook GPT Comment est en ligne."
 
-@app.route("/health", methods=["GET"])
+@app.route("/healthz", methods=["GET"])
 def health_check():
     return "OK", 200
 
